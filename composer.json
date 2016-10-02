@@ -1,0 +1,26 @@
+{
+    "name": "monomelodies/jester",
+    "description": "PHP7+ package for dynamically mocking objects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marijn Ophorst",
+            "email": "marijn@monomelodies.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Monomelodies\\Jester\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monomelodies\\Tests\\": "./tests"
+        }
+    },
+    "require-dev": {
+        "gentry/gentry": "^0.10.3"
+    }
+}
